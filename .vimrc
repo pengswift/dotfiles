@@ -21,6 +21,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'docunext/closetag.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'uarun/vim-protobuf'
+Plugin 'lukerandall/haskellmode-vim'
+Plugin 'fatih/vim-go'
 
 
 " Color schemes
@@ -96,6 +98,9 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
+
+" vim-go
+let g:go_disable_autoinstall = 0
 
 nmap <F2> Oimport pdb;pdb.set_trace()<ESC>
 
