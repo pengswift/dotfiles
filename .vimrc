@@ -102,6 +102,10 @@ let g:ctrlp_custom_ignore = {
 " vim-go
 let g:go_disable_autoinstall = 0
 
+" Configure browser for haskell_doc.vim
+let g:haddock_browser = "open"
+let g:haddock_browser_callformat = "%s %s"
+
 nmap <F2> Oimport pdb;pdb.set_trace()<ESC>
 
 nmap <C-n> :bnext<CR>
