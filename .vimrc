@@ -23,6 +23,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'uarun/vim-protobuf'
 Plugin 'lukerandall/haskellmode-vim'
 Plugin 'fatih/vim-go'
+Plugin 'Valloric/YouCompleteMe'
 
 
 " Color schemes
@@ -45,6 +46,7 @@ set sw=4 ts=4 et
 let g:proj_flags='imstcg'
 
 " Color
+set t_Co=256 
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
@@ -106,6 +108,9 @@ let g:go_disable_autoinstall = 0
 let g:haddock_browser = "open"
 let g:haddock_browser_callformat = "%s %s"
 
+" ycm
+let g:ycm_filetype_whitelist = {'go' : 1}
+
 nmap <F2> Oimport pdb;pdb.set_trace()<ESC>
 
 nmap <C-n> :bnext<CR>
@@ -120,3 +125,4 @@ nnoremap k gk
 
 au BufNewFile,BufRead *.py set foldmethod=indent foldnestmax=2
 au BufNewFile,BufRead *.lua set foldmethod=indent foldnestmax=2
+
