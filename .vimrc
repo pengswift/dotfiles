@@ -23,7 +23,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'uarun/vim-protobuf'
 Plugin 'lukerandall/haskellmode-vim'
 Plugin 'fatih/vim-go'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 
 " Color schemes
