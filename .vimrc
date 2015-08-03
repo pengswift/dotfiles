@@ -23,7 +23,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'uarun/vim-protobuf'
 Plugin 'lukerandall/haskellmode-vim'
 Plugin 'fatih/vim-go'
-" Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 
 " Color schemes
@@ -125,4 +125,5 @@ nnoremap k gk
 
 au BufNewFile,BufRead *.py set foldmethod=indent foldnestmax=2
 au BufNewFile,BufRead *.lua set foldmethod=indent foldnestmax=2
+au BufNewFile,BufRead *.go set filetype=go
 
